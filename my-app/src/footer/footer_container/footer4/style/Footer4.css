@@ -1,0 +1,17 @@
+.item {
+  text-align: left; /* Align text content to the left */
+  display: grid;
+}
+
+.item p,
+.item a {
+  color: black;
+}
+
+.chef {
+  margin-top: 75px;
+}
+
+.chef a {
+  font-size: 20px;
+}

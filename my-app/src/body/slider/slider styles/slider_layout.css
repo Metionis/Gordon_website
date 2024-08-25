@@ -1,0 +1,105 @@
+/* slider_layout.css */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  position: relative; /* Added */
+  display: flex;
+  transition: transform 1.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.control:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
+
+.dot-container {
+  position: absolute; /* Added */
+  bottom: 10px; /* Adjusted */
+  left: 50%; /* Added */
+  transform: translateX(-50%); /* Added */
+} 
+
+.dot-container .dot{
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* Default dot color */
+  border-radius: 50%; /* Make it round */
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+
+.dot-container.active {
+  background-color: white; /* Active dot color */
+}
+
+.dot-container .dot {
+  margin-left: 5px;
+}
+
+.slide {
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Poetsen+One&display=swap');
+
+.text-container {
+  position: absolute;
+  bottom: 300px; /* Adjust this value to move the text container higher */
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-align: center; /* Align text in the center */
+  font-weight: bold; /* Adjust font weight as needed */
+  font-family: 'Poetsen One', cursive; /* Apply the imported font */
+}
+
+.text-container h1, h2 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.text-container h2 {
+  margin-bottom: 50px;
+}
+
+.link {
+  background-color: gray;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 200px;
+}

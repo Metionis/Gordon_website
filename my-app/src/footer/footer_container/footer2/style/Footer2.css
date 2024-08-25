@@ -1,0 +1,104 @@
+.footer2-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.the-newsletter {
+  max-width: 800px; /* Increased max-width to accommodate two columns */
+  margin: 0 auto;
+}
+
+.signup-form {
+  background: #000; /* Set the background color to black */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.line {
+  height: 2px;
+  background: white; /* Set the line color to white */
+  width: 50px;
+  margin: 10px auto;
+}
+
+.form-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Create two columns of equal width */
+  gap: 20px; /* Space between columns */
+}
+
+.grg-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grg-column label {
+  display: block; /* Ensure each label takes up the full width */
+  margin-bottom: 10px;
+  color: white; /* Set the text color to white */
+}
+
+.text,
+.dropdown {
+  padding: 10px;
+  border: 1px solid white; /* Set the border color to white */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #000; /* Set the background color to black */
+  color: white; /* Set the text color to white */
+}
+
+.infor-box {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Create two columns: one for checkbox and one for text */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.infor-box p {
+  text-align: right; /* Align the text to the right */
+  margin: 0; /* Remove default margin */
+  color: white;
+}
+
+.checkbox {
+  margin-left: 10px;
+  justify-self: end; /* Align checkbox to the end of its grid cell */
+}
+
+.button-holder {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+p, a, h3, h2 {
+  color: white;
+}
+
+.form-body p {
+  text-align: left;
+}
+
+.form-body input .checkbox {
+  align-items: right;
+  display: inline-block;
+}

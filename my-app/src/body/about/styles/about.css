@@ -1,0 +1,44 @@
+.about1-table-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about1-line {
+  width: 200px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
+  background-color: black;
+  align-self: center;
+}
+
+.about1-paragraph {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about1-button {
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about1-text, .about1-table, .about1-table-cell {
+  padding: 10px;
+}
+
+.about1-text {
+  color: black; /* Set text color to black for the entire component */
+}
+
+.about1-text h2,
+.about1-text p,
+.about1-text a {
+  color: black; /* Set text color to black for headings, paragraphs, and links */
+}

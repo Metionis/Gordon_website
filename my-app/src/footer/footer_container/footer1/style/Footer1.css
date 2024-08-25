@@ -1,0 +1,40 @@
+.footer1-container {
+  display: flex;
+  justify-content: space-between; /* Align items at the start and end of the container */
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+  border-top: rgb(75, 72, 72) 0.2px solid;
+  margin-top: 50px;
+}
+
+.newsletter-container {
+  border: black 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+
+.newsletter-container .arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid currentColor;  
+  transition: 0.7s;
+  margin-left: 50px;
+}
+
+.newsletter-container:hover .arrow {
+  transform: rotate(180deg); /* Rotate the arrowhead */
+  transition: 0.7s;
+}
+
+.newsletter-container a {
+  color: black;
+}

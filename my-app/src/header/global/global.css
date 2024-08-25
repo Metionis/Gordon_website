@@ -1,0 +1,13 @@
+.navigation-bar {
+  position: fixed; /* Fixes the navigation bar to the top */
+  top: 0; /* Positions it at the very top */
+  left: 0; /* Ensures it starts from the left edge */
+  width: 100%; /* Spans the full width of the viewport */
+  z-index: 1000; /* Keeps it above other elements */
+  background-color: white; /* Adds a background color to avoid transparency issues */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visibility */
+}
+
+.logo-container {
+  margin-left: 10px;
+}

@@ -1,0 +1,122 @@
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.navi-list {
+  padding: 0;
+  margin: 0;
+  height: 70px;
+}
+
+.navi-list ul {
+  display: flex;
+  list-style-type: none; /* This removes the bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navi-list li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 1.5s; /* Smooth transition for the hover effect */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  height: 35px;
+  padding-top: 25px;
+}
+
+.navi-list li:hover {
+  background-color: rgba(196, 196, 196, 0.594); /* Adjusted color for visibility */
+}
+
+.gordon-logo {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.gift-button {
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+.list-stick-container {
+  display: flex;
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-item ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu-item ul li {
+  border-bottom: 1px solid #ddd; /* Add a bottom border to separate items */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: left;
+  padding-right: 30px;
+  max-width: 400px;
+}
+
+.menu-item ul li:last-child {
+  border-bottom: none; /* Remove the border for the last item */
+}
+
+.menu-item:hover ul {
+  display: block;
+  transition: 1s;
+}
+
+.gift-button {
+  background-color: #ffce00;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.menu-item:hover {
+  background-color: hsla(0, 1%, 27%, 0);
+  transition: background-color 0.5s;
+}
+
+.dropdown-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid currentColor;  
+  transition: 0.7s;
+}
+
+.menu-item:hover .dropdown-icon {
+  transform: rotate(180deg); /* Rotate the arrowhead */
+  transition: 0.7s;
+}
+
+.logo-container img{
+  height: 25px;  
+  align-items: center;
+}

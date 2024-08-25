@@ -1,0 +1,34 @@
+.table2-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.line2 {
+  width: 200px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
+  background-color: black;
+  align-self: center;
+}
+
+.paragraph2 {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text2, .table2, .table2-cell {
+  padding: 10px;
+}
+
+.text2 {
+  color: black; /* Set text color to black for the entire component */
+}
+
+.text2 h2,
+.text2 p,
+.text2 span {
+  color: black; /* Set text color to black for headings, paragraphs, and spans */
+}
